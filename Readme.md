@@ -27,7 +27,7 @@ DB_PASSWORD=
 
 ```bash
 php artisan key:generate
-php artisan migrate --seed
+php artisan migrate 
 ```
 
 4. **Jalankan website**
