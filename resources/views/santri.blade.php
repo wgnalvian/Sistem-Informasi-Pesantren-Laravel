@@ -8,21 +8,7 @@
     <div class="container-md  ">
         <div class="row px-3 pt-2">
             <div class="col-md-12 ">
-                <form action="/finance/search" method="POST">
-                    @csrf
-                    <div class="row ">
-                        <div class="col-md-5 d-flex justify-content-between">
-
-                            <input type="text" class="form-control" style="width : 300px" placeholder="Cari Santri">
-                            <button class="btn btn-primary">search</button>
-                        </div>
-
-                        <div class="col-md-7 d-flex justify-content-end align-items-center">
-                            <button style="background-color: #FF0076; color : white; border : none">Tambah Santri</button>
-
-                        </div>
-                    </div>
-                </form>
+              
 
 
 

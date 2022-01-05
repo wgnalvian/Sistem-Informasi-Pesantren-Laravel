@@ -15,7 +15,6 @@ class LoginController extends Controller
 {
     public function register()
     {
-
         return view('register');
     }
 
@@ -215,7 +214,7 @@ class LoginController extends Controller
         
         $user = User::where(['email' => session('email')])->first();
       
-        if(Hash::check(session('email'),$token)){
+        if(session('token') == $token){
 
             Alert::success('Confirm Email Successfully', 'Please Login First');
            $user->email_verified_at = date("Y-m-d H:i:s");

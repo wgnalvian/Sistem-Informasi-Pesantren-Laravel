@@ -10,7 +10,6 @@ $user= App\Models\Profile::find(Auth::id());
 
 
 
-
 ?>
 <head>
     <style>

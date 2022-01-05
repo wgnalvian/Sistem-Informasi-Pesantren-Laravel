@@ -20,7 +20,7 @@ class HomeController extends Controller
             ]);
             $profile = Profile::find(Auth::id());
         }
-
-        return view('dashboard', ['title' => 'Dashboard']);
+       
+        return view('dashboard', ['title' => 'Dashboard','user' => $profile]);
     }
 }
