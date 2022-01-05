@@ -8,7 +8,7 @@
 1. **Clone Repository**
 
 ```bash
-git clone https://github.com/adhiariyadi/Sistem-Informasi-Pesantren-Laravel.git
+git clone https://github.com/wgnalvian/Sistem-Informasi-Pesantren-Laravel.git
 cd Sistem-Informasi-Pesantren-Laravel
 composer install
 cp .env.example .env
@@ -27,7 +27,7 @@ DB_PASSWORD=
 
 ```bash
 php artisan key:generate
-php artisan migrate --seed
+php artisan migrate 
 ```
 
 4. **Jalankan website**
